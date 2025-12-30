@@ -1,0 +1,11 @@
+- Base Dice are 2W10
+- Default DR is 8
+    - 8, 9, 10 are successes
+    - A single dice throw results in 30% propability, that the throw is a success without any modifications
+    - With two dice, the resulting propability for one success is 51% (0,3 + 0,3 - (0,3 * 0,3))
+    - (Probabilistic Principle of Inclusion and Exclusion)[https://brilliant.org/wiki/probabilistic-principle-of-inclusion-and-exclusion/]
+    - Successing with both dice results in a "Success, without complications" -> 0,3*0,3 = 9% propability
+    - 0,3 * 0,5 (for average char with attribute 2) = 15% for two successes
+- Every trait/bonus should only affect how consequences are handled. They never change the propability or dice throws.
+- All numbers only tell, if something happens, never what happens.
+- Severity allows the situation to evolve without external input.
